@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@import url(style/header.css);
+@import url(style/topicoup.css);
+@import url(style/topicolow.css);
+@import url(style/vagas.css);
+@import url(style/colaboration.css);
+@import url(style/footer.css);
+
+:root {
+  --cinzaescuro: #3a404e;
+  --cinzaclaro: #667085;
+  --vermelho: #8e2424;
+  --vermelho-hover: #8b0000;
+  --branco: #ffffff;
+  --preto: #000000;
+  --preto-fosco: #101828;
+  --bege-claro: #dddddd;
+  --cor-footer: #f9fafb;
+  --cor-copy: #98a2b3;
+  --Inter: "Inter";
+  --fundo-vagas: rgba(142, 36, 36, 0.05);
+  --barra-vagas: rgba(234, 236, 240, 1);
+  --barra-title: rgba(16, 24, 40, 1);
+  --barra-parag: rgba(102, 112, 133, 1);
+  --colabordores: rgba(195, 25, 25, 0.03);
+  --parag-colaborantion: rgba(142, 36, 36, 1);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: var(--branco);
+  font-family: var(--Inter);
+  font-size: 16px;
+  font-weight: 400;
+}

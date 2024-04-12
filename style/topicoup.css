@@ -1,0 +1,60 @@
+  /* INICIO TOPICO UP */
+
+  .tópicoup {
+    display: flex;
+    flex-direction: column;
+    padding: 1em 0;
+  }
+
+  .tópicoup__base {
+    justify-content: center;
+    padding: 6em;
+    margin: auto;
+  }
+
+  .tópicoup__title {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    margin: 1em 0;
+    color: var(--preto);
+  }
+
+  .tópicoup__parag {
+    font-size: 20px;
+    color: var(--cinzaclaro);
+    text-align: center;
+  }
+
+  .lista__tópicoup {
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+  }
+
+  .lista-itens__tópicoup {
+    margin: 0 4em;
+    list-style: none;
+
+  }
+
+  .lista-title__tópicoup {
+    color: var(--vermelho);
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 0.1em;
+  }
+
+  .lista-titletwo__tópicoup {
+    color: var(--preto-fosco);
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0.7em;
+  }
+
+  .lista-parag__tópicoup {
+    color: var(--cinzaclaro);
+  }
+
+  /* FECHAMENTO TÓPICO UP */
+

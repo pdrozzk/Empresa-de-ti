@@ -1,0 +1,47 @@
+/* INICIO COLABORATION */
+
+.colaboration {
+  display: flex;
+  justify-content: center;
+}
+
+.colaboration__base {
+  padding: 2em;
+  background-color: var(--fundo-vagas);
+  border-radius: 10px;
+  width: 70vw;
+}
+
+.colaboration__parag {
+  text-align: center;
+  color: var(--parag-colaborantion);
+  font-weight: 600;
+}
+
+.colaboration__title {
+  color: var(--barra-title);
+  font-weight: 500;
+  margin: 1em;
+  text-align: center;
+}
+
+.foto__colaboradora {
+  text-align: center;
+}
+
+.name__colaboration {
+  color: var(--barra-title);
+  font-weight: 500;
+  margin: 0.5em;
+}
+
+.funcion {
+  font-size: 14px;
+  color: var(--barra-parag);
+}
+
+.foto__quenga {
+  margin: 0.5em;
+}
+
+/* FINALIZAÇÃO COLABORATION */

@@ -1,0 +1,51 @@
+footer {
+  display: block;
+  text-align: center;
+  padding: 8em;
+  background-color: var(--cor-footer);
+  margin-top: 7em;
+}
+
+footer > h2 {
+  font-size: 36px;
+  font-weight: 600;
+  color: var(--barra-title);
+  margin: 0.7em;
+}
+
+footer > p {
+  font-size: 20px;
+  color: var(--barra-parag);
+  margin-bottom: 2em;
+}
+
+footer > input {
+  width: 20vw;
+  padding: 1em 0;
+  border-radius: 8px;
+  border: 1px solid var(--bege-claro);
+}
+
+footer > input::placeholder {
+  color: var(--cinzaclaro);
+  font-size: 16px;
+  padding: 0 0.5em;
+}
+
+footer > label {
+  background: var(--vermelho);
+  padding: 0.8em 1.5em;
+  border-radius: 8px;
+  color: var(--branco);
+  margin-left: 1em;
+}
+
+footer > label:hover {
+  background: var(--vermelho-hover);
+}
+
+.parag__footer {
+  font-size: 16px;
+  color: var(--cor-copy);
+  margin: 2em;
+}
